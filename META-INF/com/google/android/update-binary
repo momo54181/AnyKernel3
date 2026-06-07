@@ -576,7 +576,7 @@ ui_print " " "Telegram频道链接:https://t.me/oppok7x" " ";
 ui_print " " " QQ群号：1098718272" " ";
 sleep 1.0
 
-ui_print " 力量若达到了极限，接着考验的便是人心 --by 胡桃";
+ui_print " 爱与友情以及勇气改变不了一个人，只有受伤才能让人成长.  ——比企谷八幡《我的青春恋爱物语果然有问题》";
 
 grep -oE 'AK_BASE.*' META-INF/com/google/android/updater-script >&2;
 ui_print " ";
