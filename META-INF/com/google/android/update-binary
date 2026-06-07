@@ -556,47 +556,26 @@ ui_print " " "AnyKernel3 by osm0sis @ xda-developers & @sanba0519" " ";
 
 sleep 0.5
 
-ui_print "   _____             _           "
+ui_print "  __  __                      ____  ____  ___  _   _ "
 sleep 0.3
-ui_print "  / ____|           | |          "
+ui_print " |  \/  | ___  _ __ ___   ___| __ )| __ )|_ _|| | | |"
 sleep 0.3
-ui_print " | (___   __ _ _ __ | |__   __ _ "
+ui_print " | |\/| |/ _ \| '_ \` _ \ / _ \  _ \|  _ \ | | | | | |"
 sleep 0.3
-ui_print "  \\___ \\ / _\` | '_ \\| '_ \\ / _\` |"
+ui_print " | |  | | (_) | | | | | |  __/ |_) | |_) || | | |_| |"
 sleep 0.3
-ui_print "  ____) | (_| | | | | |_) | (_| |"
+ui_print " |_|  |_|\___/|_| |_| |_|\___|____/|____/|___| \___/ "
 sleep 0.3
-ui_print " |_____/ \\__,_|_| |_|_.__/ \\__,_|"
+ui_print "                                                     "
 sleep 0.3
 
 sleep 0.5
 
-ui_print " " "内核作者：酷安@三笆-GitHub@sanba0519" " ";
+ui_print " " "内核作者：Momo5418" " ";
 ui_print " " "Telegram频道链接:https://t.me/oppok7x" " ";
 ui_print " " " QQ群号：1098718272" " ";
 sleep 1.0
 
-#好像有的软件不能正确识别 还是删了吧~
-#messages=(
-#"    “阴阳有序，命运无常。”"
-#"    “力量若达到了极限，接着考验的便是人心”"
-#"    “生于生时，亡于亡刻。”"
-#"    “咳咳, 太阳出来我晒太阳~ 月亮出来我晒月亮咯~”"
-#"    “大丘丘病了，二丘丘瞧；三丘丘采药，四丘丘熬；”"
-#"    我是胡桃の狗wwwww"
-#)
-
-#random_msg="${messages[$((RANDOM % ${#messages[@]}))]}"
-#ui_print "$random_msg"
-
-#sleep 1
-#ui_print "$random_msg"
-#sleep 1
-#ui_print "$random_msg"
-#sleep 1
-#ui_print "$random_msg"
-
-#-----------------------------
 ui_print " 力量若达到了极限，接着考验的便是人心 --by 胡桃";
 
 grep -oE 'AK_BASE.*' META-INF/com/google/android/updater-script >&2;
